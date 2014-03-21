@@ -220,7 +220,6 @@ button::-moz-focus-inner,input::-moz-focus-inner {
 
 textarea {
 	overflow:auto;
-
 	vertical-align:top;
 
 }
@@ -485,10 +484,6 @@ input[type="color"],
 	vertical-align:middle;
 }
 
-input,textarea,.uneditable-input {
-	min-width:206px;
-	display: block;
-}
 
 textarea {
 	height:auto;
