@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="copyright" content="copyright 2014 Fur">
+
+    <title>Basicfur</title>
+    <link href="css/basicfur-v3.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="screen.css" rel="stylesheet" type="text/css" media="screen">
+    
+ 
+    
+</head>
+
+<body>
+	
+
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6">
+ 
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+
+		
+<div class="container">	
+<div class="col-md-12">
+
+<h1>Basicfur</h1>
+
+<p>
+Basicfur is a simpel css reset/normalize boilerplate. Basicfur is based on <a href="http://necolas.github.com/normalize.css/">normalize.css</a> and Twitter Bootstrap 3 grids system combined with a couple of our own presets. Basic Fur makes browsers render all elements more consistently and in-line with modern standards. Basicfur can be used as a base, a solid foundation for your web projects. </p>
+
+
+
+
+<p>
+<h4>Basicfur v.3</h4>
+<code>&lt;link href="http://cdn.wewantfur.com/basicfur/css/basicfur-v3-.css"  rel="stylesheet"&gt;</code>
+
+<h4>Basicfur v.3 minified</h4>	
+<code>&lt;link href="http://cdn.wewantfur.com/basicfur/css/basicfur-v3-min.css"  rel="stylesheet"&gt;</code>	
+	
+</p>
+
+
+
+
+</div><div class="col-md-6">
+
+<h2>Box-sizing</h2>
+
+<p>
+Chrome (any): box-sizing<br/>
+Opera 8.5+: box-sizing<br/>
+Firefox (any): -moz-box-sizing<br/>
+Safari 3: -webkit-box-sizing (unprefixed in 5.1+ versions)<br/>
+IE8+: box-sizing
+	
+</p>
+
+<pre>
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -ms-interpolation-mode: bicubic;
+}
+</pre>
+
+</div><div class="col-md-6">
+ 
+
+<h2>Typography</h2>
+<p>The typography of Basicfur is designed to create a strong hierarchy with basic styles. The primary font is sans-serif, but the font stack can be easily changed with just a couple adjustments. Regular paragraphs are set at a 16px base with 20px line height and a bottom margin of 20px.</p>
+
+
+
+</div><div class="col-md-6">
+
+
+
+
+    <h1>h1. Heading 1 - 36px</h1>
+
+    <h2>h2. Heading 2 - 30px</h2>
+
+    <h3>h3. Heading 3 - 24px</h3>
+
+    <h4>h4. Heading 4 - 18px</h4>
+
+    <h5>h5. Heading 5 - 14px</h5>
+
+    <h6>h6. Heading 6 - 12px</h6>
+    
+
+</div><div class="col-md-6">
+   
+<p><small>This line of text is meant to be treated as fine print.</small><br>
+<strong>he following snippet of text is rendered as bold text.</strong><br>
+<em>The following snippet of text is rendered as italicized text.</em><br>
+<abbr title="attribute">attr</abbr></p>
+
+</div><div class="col-md-6">
+
+    <col-md-6quote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p><small>Someone famous <cite title="Source Title">Source Title</cite></small></col-md-6quote>
+   
+   
+</div><div class="col-md-6">   
+
+    <ul>
+        <li>Lorem ipsum dolor sit amet</li>
+
+        <li>Consectetur adipiscing elit</li>
+
+        <li>Integer molestie lorem at massa</li>
+
+        <li>Facilisis in pretium nisl aliquet</li>
+
+        <li>Nulla volutpat aliquam velit
+
+            <ul>
+                <li>Phasellus iaculis neque</li>
+
+                <li>Purus sodales ultricies</li>
+
+                <li>Vestibulum laoreet porttitor sem</li>
+
+                <li>Ac tristique libero volutpat at</li>
+            </ul>
+        </li>
+
+        <li>Faucibus porta lacus fringilla vel</li>
+
+        <li>Aenean sit amet erat nunc</li>
+
+        <li>Eget porttitor lorem</li>
+    </ul>
+    
+</div><div class="col-md-6">
+
+    <ol>
+        <li>Lorem ipsum dolor sit amet</li>
+
+        <li>Consectetur adipiscing elit</li>
+
+        <li>Integer molestie lorem at massa</li>
+
+        <li>Facilisis in pretium nisl aliquet</li>
+
+        <li>Nulla volutpat aliquam velit</li>
+
+        <li>Faucibus porta lacus fringilla vel</li>
+
+        <li>Aenean sit amet erat nunc</li>
+
+        <li>Eget porttitor lorem</li>
+    </ol>
+    
+    
+</div><div class="col-md-6">    
+    
+    <dl>
+        <dt>Description lists</dt>
+
+        <dd>A description list is perfect for defining terms.</dd>
+
+        <dt>Euismod</dt>
+
+        <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+
+        <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+
+        <dt>Malesuada porta</dt>
+
+        <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+    </dl>
+    
+</div><div class="col-md-6">    
+    
+    <code>&lt;section&gt; should be wrapped as inline.&lt;/section&gt; </code><br>
+    <br>
+    <pre>
+        &lt;p&gt;Sample text here...&lt;/p&gt;
+    
+</pre>
+
+</div><div class="col-md-6">
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+
+                <th>First Name</th>
+
+                <th>Last Name</th>
+
+                <th>Username</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+
+                <td>Mark</td>
+
+                <td>Otto</td>
+
+                <td>@mdo</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+
+                <td>Jacob</td>
+
+                <td>Thornton</td>
+
+                <td>@fat</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+
+                <td>Larry</td>
+
+                <td>the Bird</td>
+
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    </div><div class="col-md-6">
+
+
+<form>
+  <fieldset>
+    <legend>Legend</legend>
+    <label>Label name</label>
+    <input type="text" placeholder="Type something…">
+    <span class="help-col-md-6">Example col-md-6-level help text here.</span>
+    <label class="checkbox">
+      <input type="checkbox"> Check me out
+    </label>
+    <button type="submit" class="btn">Submit</button>
+  </fieldset>
+</form>
+
+    </div><div class="col-md-6">   
+   
+<label>Regular Textarea</label>   
+<textarea rows="6"></textarea>
+
+	</div><div class="col-md-6">  
+
+<label class="checkbox">
+  <input type="checkbox" value="">
+  Option one is this and that—be sure to include why it's great
+</label>
+ 
+<label class="radio">
+  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+  Option one is this and that—be sure to include why it's great
+</label>
+<label class="radio">
+  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+  Option two can be something else and selecting it will deselect option one
+</label>
+
+	</div><div class="col-md-6">  
+
+
+<select>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+   
+ 	</div><div class="col-md-6">  
+ 	  
+<input type="text" placeholder="Disabled input here..." disabled>  
+
+ 	</div><div class="col-md-6">  
+ 	
+
+    <form>
+    	<label>Search</label>
+        <input type="search" placeholder="search">
+    </form>
+
+</div><div class="col-md-6">  	
+ 	
+
+  <input type="text" class"muted">
+  <input type="text" class="success">
+  <input type="text" class="error">
+  <input type="text" class="warning">
+  <input type="text" class="info">
+
+
+ </div><div class="col-md-6">  
+ 
+
+<p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+<p class="success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+<p class="error">Donec ullamcorper nulla non metus auctor fringilla.</p>
+<p class="warning">Etiam porta sem malesuada magna mollis euismod.</p>
+<p class="info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>	
+ 	 
+ </div><div class="col-md-6">  
+ 	 
+<p class="muted-text">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+<p class="success-text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+<p class="error-text">Donec ullamcorper nulla non metus auctor fringilla.</p>
+<p class="warning-text">Etiam porta sem malesuada magna mollis euismod.</p>
+<p class="info-text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>	 	 
+ 	 
+</div><div class="col-md-6"> 
+<button>Lorem Ipsum</button> 	 
+<button class="disabled">Lorem Ipsum</button> 	 
+
+</div>
+
+
+
+<div class="col-md-12"> 
+	<h2> Grid system</h2>	
+
+<div class="row show-grid">
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+</div><!-- row -->
+
+<div class="row show-grid">
+  <div class="col-md-8">.col-md-8</div>
+  <div class="col-md-4">.col-md-4</div>
+
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+
+  <div class="col-md-6">.col-md-6</div>
+  <div class="col-md-6">.col-md-6</div>
+</div><!-- row -->  
+
+
+<div class="row show-grid">
+  <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+
+
+  <div class="col-xs-6">.col-xs-6</div>
+  <div class="col-xs-6">.col-xs-6</div>
+  
+  <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+  <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+</div><!-- row -->
+
+<div class="row show-grid">  
+  <div class="col-md-12">
+    Level 1: .col-md-12
+    <div class="row">
+      <div class="col-md-6">
+        Level 2: .col-md-6
+      </div>
+      <div class="col-md-6">
+        Level 2: .col-md-6
+      </div>
+    </div>
+</div><!-- row -->
+
+</div>
+
+
+
+</div><!-- container -->   
+   </body>
+</html>
