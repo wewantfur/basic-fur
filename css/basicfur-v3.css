@@ -419,7 +419,6 @@ pre {
     color: #333;
     background-color: #f5f5f5;
     border: 1px solid #ccc;
-    border-radius: 4px
 }
 
 pre code {
@@ -449,10 +448,11 @@ tr {
 	border-color:inherit;
 }
 
-label,input,button,select,textarea {
+label,input,button,textarea,select {
 	font-size:14px;
 	font-weight:400;
 	line-height:20px;
+	border-radius: 0;
 }
 
 label {
