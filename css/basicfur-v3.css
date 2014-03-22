@@ -162,12 +162,40 @@ legend {
 }
 
 
-button,input,select,textarea {
+
+input,select,textarea {
 	font-family:inherit;
 	font-size:100%;
 	margin:0;
 	border:1px solid #ccc;
 }
+
+
+button, .btn{
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;		
+}
+
+button:hover, .btn:hover{
+	color: #333;
+	background-color: #ebebeb;
+	border-color: #adadad;
+}
+
 
 button,input {
 	line-height:normal;
@@ -319,9 +347,7 @@ button,html input[type="button"],input[type="reset"],input[type="submit"] {
 }
 
 button,input,select,textarea {
-	line-height: 30px;
 	border:1px solid #ccc;
-	background-color:none;
 	margin-bottom:10px;
 }
 
@@ -447,7 +473,7 @@ tr {
 	border-color:inherit;
 }
 
-label,input,button,textarea,select {
+label,input,textarea,select {
 	font-size:14px;
 	font-weight:400;
 	line-height:20px;
