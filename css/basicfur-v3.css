@@ -78,6 +78,26 @@ h1 {
 	margin:.67em 0;
 }
 
+.text-left {
+    text-align: left
+}
+
+.text-right {
+    text-align: right
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-justify {
+    text-align: justify
+}
+
+.text-muted {
+    color: #999
+}
+
 abbr[title] {
 	border-bottom:1px dotted;
 }
