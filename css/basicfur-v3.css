@@ -188,6 +188,9 @@ input,select,textarea {
 	font-size:100%;
 	margin:0;
 	border:1px solid #ccc;
+   -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;		
 }
 
 
