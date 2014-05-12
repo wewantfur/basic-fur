@@ -434,7 +434,8 @@ dd {
 }
 
 code, kbd, pre, samp {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	text-rendering: auto;
 }
 
 code {
@@ -442,7 +443,10 @@ code {
     font-size: 90%;
     color: #c7254e;
     background-color: #f9f2f4;
-    white-space: nowrap;
+	tab-size:4;
+	-moz-tab-size: 4;
+	-o-tab-size:  4;
+	white-space: pre-wrap;
     border-radius: 4px
 }
 
