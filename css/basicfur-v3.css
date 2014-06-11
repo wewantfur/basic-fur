@@ -239,12 +239,15 @@ button[disabled],html input[disabled] {
 	cursor:default;
 }
 
-input[type="checkbox"],input[type="radio"] {
-	box-sizing:border-box;
-	padding:0;
-	margin: .5em;
-	display: inline-block;
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal
 }
+
+
 
 input {
 	border-radius:0;
@@ -569,6 +572,9 @@ input[type="radio"],input[type="checkbox"] {
 	margin:-5px .5ex 0;
 	margin-top:1px \9;
 	*margin-top:0;
+	-webkit-appearance:checkbox !important;
+	-moz-appearance:checkbox !important;
+	appearance:checkbox !important;
 	line-height:normal;
 	padding:initial;
 	background-color:initial;
